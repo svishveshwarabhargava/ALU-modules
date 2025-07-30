@@ -1,0 +1,36 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on May 14, 2024 at 16:16:08 IST
+irun
+	-access +rwc
+	floatingpoint.v
+	fp_tb.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		fp_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.decoder:v <0x4d1a27a9>
+			streams:   2, words: 24880
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		               Instances  Unique
+		Modules:             113      20
+		Registers:           803      92
+		Scalar wires:        175       -
+		Expanded wires:      151       5
+		Vectored wires:      381       -
+		Always blocks:        87      15
+		Initial blocks:        6       6
+		Cont. assignments:   107      86
+		Pseudo assignments:   54      21
+	Writing initial simulation snapshot: worklib.fp_tb:v
+Loading snapshot worklib.fp_tb:v .................... Done
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 110 NS + 0
+./fp_tb.v:63 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on May 14, 2024 at 16:16:08 IST  (total: 00:00:00)

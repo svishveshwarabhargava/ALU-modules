@@ -1,0 +1,381 @@
+s1(23Apr2024:10:33:37):  irun -access +rwc fsqrt.v 
+s2(23Apr2024:10:34:11):  irun -access +rwc fadd.v 
+s3(23Apr2024:10:34:20):  irun -access +rwc fdiv.v 
+s4(23Apr2024:10:34:27):  irun -access +rwc fmul.v 
+s5(23Apr2024:10:34:32):  irun -access +rwc fdiv.v 
+s6(23Apr2024:10:35:49):  irun -access +rwc fdiv.v 
+s7(23Apr2024:10:35:57):  irun -access +rwc fadd.v 
+s8(23Apr2024:10:36:02):  irun -access +rwc fmul.v 
+s9(23Apr2024:10:36:09):  irun -access +rwc fmul.v 
+s10(23Apr2024:10:36:14):  irun -access +rwc fdiv.v 
+s11(23Apr2024:10:36:21):  irun -access +rwc fsqrt.v 
+s12(23Apr2024:10:42:41):  irun -access +rwc fsqrt.v 
+s13(23Apr2024:10:45:44):  irun -access +rwc fadd.v 
+s14(23Apr2024:10:45:57):  irun -access +rwc fadd.v 
+s15(23Apr2024:10:46:09):  irun -access +rwc fadd.v fdiv.v fmul.v fsqrt.v 
+s16(23Apr2024:10:46:29):  irun -access +rwc Falu_tb.v F_alu.v 
+s17(23Apr2024:10:47:33):  irun -access +rwc add.v 
+s18(23Apr2024:10:47:45):  irun -access +rwc F_alu.v 
+s19(23Apr2024:10:48:02):  irun -access +rwc sub.v 
+s20(23Apr2024:10:48:11):  irun -access +rwc mul.v 
+s21(23Apr2024:10:48:47):  irun -access +rwc max.v 
+s22(23Apr2024:10:48:54):  irun -access +rwc min.v 
+s23(23Apr2024:10:49:04):  irun -access +rwc eq.v 
+s24(23Apr2024:10:49:12):  irun -access +rwc leq.v 
+s25(23Apr2024:10:49:20):  irun -access +rwc lt.v 
+s26(23Apr2024:10:49:35):  irun -access +rwc F_alu.v 
+s27(23Apr2024:10:49:54):  irun -access +rwc floatingpoint.v 
+s28(23Apr2024:10:50:20):  irun -access +rwc decoder.v 
+s29(23Apr2024:10:50:30):  irun -access +rwc mem.v 
+s30(23Apr2024:10:51:50):  irun -access +rwc mem.v 
+s31(23Apr2024:10:51:56):  irun -access +rwc floatingpoint.v 
+s32(23Apr2024:10:53:32):  irun -access +rwc F_alu.v 
+s33(23Apr2024:10:53:39):  irun -access +rwc F_alu.v 
+s34(23Apr2024:10:53:43):  irun -access +rwc floatingpoint.v 
+s35(23Apr2024:10:53:45):  irun -access +rwc F_alu.v 
+s36(23Apr2024:11:05:39):  irun -access +rwc fpmul.v 
+s37(23Apr2024:11:05:42):  irun -access +rwc F_alu.v 
+s38(23Apr2024:11:06:35):  irun -access +rwc fpmul.v 
+s39(23Apr2024:11:06:37):  irun -access +rwc F_alu.v 
+s40(23Apr2024:11:06:50):  irun -access +rwc F_alu.v Falu_tb.v 
+s41(23Apr2024:11:07:35):  irun -access +rwc F_alu.v Falu_tb.v 
+s42(23Apr2024:11:09:51):  irun -access +rwc floatingpoint.v 
+s43(26Apr2024:16:19:44):  irun -access +rwc decoder.v decoder_tb.v 
+s44(26Apr2024:16:19:56):  irun -access +rwc mem.v memory_tb.v 
+s45(26Apr2024:16:20:09):  irun -access +rwc add.v 
+s46(26Apr2024:16:25:25):  irun -access +rwc add.v mul.v div.v sub.v 
+s47(26Apr2024:16:25:34):  irun -access +rwc add.v 
+s48(26Apr2024:16:25:42):  irun -access +rwc sub.v 
+s49(26Apr2024:16:25:48):  irun -access +rwc mul.v 
+s50(26Apr2024:16:25:56):  irun -access +rwc div.v 
+s51(26Apr2024:16:26:18):  irun -access +rwc fsqrt.v 
+s52(26Apr2024:16:27:08):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s53(26Apr2024:16:27:18):  irun -access +rwc fsqrt.v 
+s54(26Apr2024:16:27:20):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s55(26Apr2024:16:27:32):  irun -access +rwc fsqrt_tb.v 
+s56(26Apr2024:16:28:16):  irun -access +rwc fsqrt_tb.v 
+s57(26Apr2024:16:29:06):  irun -access +rwc fsqrt_tb.v 
+s58(26Apr2024:16:29:39):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s59(26Apr2024:16:30:04):  irun -access +rwc max.v max_tb.v 
+s60(26Apr2024:16:30:15):  irun -access +rwc min.v min_tb.v 
+s61(26Apr2024:16:30:23):  irun -access +rwc eq.v eq_tb.v 
+s62(26Apr2024:16:30:30):  irun -access +rwc leq.v leq_tb.v 
+s63(26Apr2024:16:30:38):  irun -access +rwc lt_tb.v lt.v 
+s64(26Apr2024:16:31:00):  irun -access +rwc lt.v lt_tb.v 
+s65(26Apr2024:16:33:42):  irun -access +rwc lt.v lt_tb.v 
+s66(26Apr2024:16:34:11):  irun -access +rwc lt.v lt_tb.v 
+s67(26Apr2024:16:35:05):  irun -access +rwc leq.v leq_tb.v 
+s68(26Apr2024:16:35:10):  irun -access +rwc lt.v lt_tb.v 
+s69(26Apr2024:16:35:19):  irun -access +rwc lt_tb.v 
+s70(26Apr2024:16:35:24):  irun -access +rwc lt_tb.v lt.v 
+s71(26Apr2024:16:35:58):  irun -access +rwc leq.v leq_tb.v 
+s72(26Apr2024:16:36:50):  irun -access +rwc mem.v memory_tb.v 
+s73(26Apr2024:16:38:21):  irun -access +rwc eq.v eq_tb.v 
+s74(26Apr2024:16:40:24):  irun -access +rwc max.v max_tb.v 
+s75(26Apr2024:16:41:44):  irun -access +rwc max.v max_tb.v 
+s76(26Apr2024:16:43:50):  irun -access +rwc min.v min_tb.v 
+s77(26Apr2024:16:44:00):  irun -access +rwc max.v max_tb.v 
+s78(26Apr2024:16:44:03):  irun -access +rwc eq.v eq_tb.v 
+s79(26Apr2024:16:44:07):  irun -access +rwc leq.v leq_tb.v 
+s80(26Apr2024:16:44:11):  irun -access +rwc lt_tb.v lt.v 
+s81(26Apr2024:16:47:21):  irun -access +rwc F_alu.v Falu_tb.v 
+s82(26Apr2024:16:48:16):  irun -access +rwc floatingpoint.v fp_tb.v 
+s83(26Apr2024:16:49:39):  irun -access +rwc decoder.v decoder_tb.v 
+s84(26Apr2024:16:55:45):  irun -access +rwc mem.v memory_tb.v 
+s85(26Apr2024:17:08:34):  irun -access +rwc add.v 
+s86(26Apr2024:17:12:46):  irun -access +rwc sub.v 
+s87(26Apr2024:17:13:52):  irun -access +rwc sub.v 
+s88(26Apr2024:17:16:50):  irun -access +rwc mul.v 
+s89(26Apr2024:17:17:13):  irun -access +rwc mul.v 
+s90(26Apr2024:17:17:26):  irun -access +rwc mul.v 
+s91(26Apr2024:17:18:03):  irun -access +rwc mul.v 
+s92(26Apr2024:17:24:54):  irun -access +rwc mul.v 
+s93(26Apr2024:17:25:40):  irun -access +rwc mul.v 
+s94(26Apr2024:17:29:58):  irun -access +rwc div.v 
+s95(26Apr2024:17:33:35):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s96(26Apr2024:17:37:18):  irun -access +rwc max.v max_tb.v 
+s97(26Apr2024:17:40:46):  irun -access +rwc min.v min_tb.v 
+s98(26Apr2024:17:50:57):  irun -access +rwc eq.v eq_tb.v 
+s99(26Apr2024:17:53:36):  irun -access +rwc lt.v lt_tb.v 
+s100(26Apr2024:17:55:16):  irun -access +rwc leq.v leq_tb.v 
+s101(26Apr2024:17:57:31):  irun -access +rwc F_alu.v Falu_tb.v 
+s102(26Apr2024:17:59:23):  irun -access +rwc floatingpoint.v fp_tb.v 
+s103(26Apr2024:18:02:18):  irun -access +rwc floatingpoint.v fp_tb.v 
+s104(26Apr2024:18:04:14):  irun -access +rwc floatingpoint.v fp_tb.v 
+s105(26Apr2024:18:21:34):  irun -access +rwc decoder.v decoder_tb.v 
+s106(26Apr2024:18:22:47):  irun -access +rwc decoder.v decoder_tb.v 
+s107(26Apr2024:18:23:42):  irun -access +rwc decoder.v decoder_tb.v 
+s108(26Apr2024:18:27:38):  irun -access +rwc mem.v memory_tb.v 
+s109(26Apr2024:18:28:32):  irun -access +rwc mem.v memory_tb.v 
+s110(26Apr2024:21:03:38):  irun -access +rwc fsqrt.v 
+s111(26Apr2024:21:04:12):  irun -access +rwc fsqrt.v 
+s112(26Apr2024:21:04:18):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s113(26Apr2024:21:18:21):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s114(26Apr2024:21:19:21):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s115(26Apr2024:21:23:38):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s116(26Apr2024:22:00:42):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s117(26Apr2024:22:01:18):  irun -access +rwc F_alu.v 
+s118(26Apr2024:22:02:40):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s119(26Apr2024:22:03:36):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s120(26Apr2024:22:03:39):  irun -access +rwc F_alu.v 
+s121(26Apr2024:22:05:01):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s122(26Apr2024:22:05:23):  irun -access +rwc F_alu.v 
+s123(26Apr2024:22:07:06):  irun -access +rwc add.v 
+s124(26Apr2024:22:07:08):  irun -access +rwc F_alu.v 
+s125(26Apr2024:22:07:19):  irun -access +rwc sub.v div.v mul.v 
+s126(26Apr2024:22:07:35):  irun -access +rwc sub.v 
+s127(26Apr2024:22:07:42):  irun -access +rwc div.v 
+s128(26Apr2024:22:07:46):  irun -access +rwc mul.v 
+s129(26Apr2024:22:08:23):  irun -access +rwc add.v 
+s130(26Apr2024:22:08:31):  irun -access +rwc fsqrt.v 
+s131(26Apr2024:22:08:45):  irun -access +rwc max.v 
+s132(26Apr2024:22:08:49):  irun -access +rwc min.v 
+s133(26Apr2024:22:08:55):  irun -access +rwc eq.v 
+s134(26Apr2024:22:08:58):  irun -access +rwc leq.v 
+s135(26Apr2024:22:09:03):  irun -access +rwc lt.v 
+s136(26Apr2024:22:09:08):  irun -access +rwc F_alu.v 
+s137(26Apr2024:22:09:12):  irun -access +rwc floatingpoint.v 
+s138(26Apr2024:22:09:17):  irun -access +rwc floatingpoint.v fp_tb.v 
+s139(27Apr2024:12:42:56):  irun -access +rwc decoder.v decoder_tb.v 
+s140(27Apr2024:12:48:22):  irun -access +rwc decoder.v decoder_tb.v 
+s141(27Apr2024:12:53:51):  irun -access +rwc mem.v memory_tb.v 
+s142(27Apr2024:14:05:55):  irun -access +rwc floatingpoint.v fp_tb.v 
+s143(06May2024:11:11:23):  irun -access +rwc square.v 
+s144(06May2024:11:12:18):  irun -access +rwc square.v 
+s145(06May2024:11:12:27):  irun -access +rwc square.v square_tb.v 
+s146(06May2024:11:14:19):  irun -access +rwc square.v square_tb.v 
+s147(06May2024:11:15:49):  irun -access +rwc square.v 
+s148(06May2024:11:15:51):  irun -access +rwc square.v square_tb.v 
+s149(06May2024:11:17:44):  irun -access +rwc square.v square_tb.v 
+s150(06May2024:11:18:20):  irun -access +rwc square.v square_tb.v 
+s151(06May2024:11:20:38):  irun -access +rwc square.v square_tb.v 
+s152(06May2024:11:20:53):  irun -access +rwc square.v square_tb.v 
+s153(06May2024:11:23:07):  irun -access +rwc square.v square_tb.v 
+s154(06May2024:11:25:04):  irun -access +rwc square.v 
+s155(06May2024:11:25:30):  irun -access +rwc square.v square_tb.v 
+s156(06May2024:11:26:44):  irun -access +rwc square.v square_tb.v 
+s157(06May2024:11:28:00):  irun -access +rwc square.v square_tb.v 
+s158(06May2024:11:30:54):  irun -access +rwc square.v square_tb.v 
+s159(06May2024:11:32:05):  irun -access +rwc square.v square_tb.v 
+s160(06May2024:11:33:01):  irun -access +rwc square.v square_tb.v 
+s161(06May2024:11:34:12):  irun -access +rwc square.v square_tb.v 
+s162(06May2024:11:35:22):  irun -access +rwc square.v square_tb.v 
+s163(06May2024:11:37:17):  irun -access +rwc square.v square_tb.v 
+s164(06May2024:11:37:47):  irun -access +rwc square.v square_tb.v 
+s165(06May2024:11:38:49):  irun -access +rwc square.v square_tb.v 
+s166(06May2024:11:39:21):  irun -access +rwc square.v square_tb.v 
+s167(06May2024:11:40:24):  irun -access +rwc square.v square_tb.v 
+s168(06May2024:11:41:44):  irun -access +rwc square.v square_tb.v 
+s169(06May2024:11:44:58):  irun -access +rwc square.v square_tb.v 
+s170(06May2024:11:45:41):  irun -access +rwc square.v square_tb.v 
+s171(06May2024:11:48:04):  irun -access +rwc square.v square_tb.v 
+s172(06May2024:11:49:28):  irun -access +rwc square.v square_tb.v 
+s173(06May2024:11:50:26):  irun -access +rwc square.v square_tb.v 
+s174(06May2024:11:53:03):  irun -access +rwc square.v square_tb.v 
+s175(06May2024:11:53:42):  irun -access +rwc square.v square_tb.v 
+s176(06May2024:11:55:06):  irun -access +rwc square.v square_tb.v 
+s177(06May2024:11:55:35):  irun -access +rwc square.v square_tb.v 
+s178(06May2024:11:57:16):  irun -access +rwc square.v square_tb.v 
+s179(06May2024:12:02:58):  irun -access +rwc square.v 
+s180(06May2024:12:03:27):  irun -access +rwc square.sv 
+s181(06May2024:12:03:37):  irun -access +rwc square.sv 
+s182(06May2024:12:04:09):  irun -access +rwc square.sv 
+s183(07May2024:12:03:54):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s184(07May2024:12:05:25):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s185(07May2024:12:08:12):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s186(07May2024:12:08:29):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s187(07May2024:12:10:35):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s188(07May2024:12:11:02):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s189(07May2024:12:20:19):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s190(07May2024:12:21:04):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s191(07May2024:12:23:40):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s192(07May2024:12:23:50):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s193(07May2024:12:26:21):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s194(07May2024:12:27:43):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s195(07May2024:12:31:41):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s196(07May2024:12:36:34):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s197(07May2024:12:38:18):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s198(07May2024:12:39:19):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s199(07May2024:12:42:29):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s200(07May2024:12:44:28):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s201(07May2024:12:46:16):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s202(07May2024:12:47:31):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s203(07May2024:12:51:52):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s204(07May2024:12:52:45):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s205(07May2024:13:04:19):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s206(07May2024:13:16:22):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s207(07May2024:13:17:26):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s208(07May2024:13:17:57):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s209(07May2024:21:10:08):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s210(07May2024:21:10:37):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s211(07May2024:21:11:41):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s212(07May2024:21:13:01):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s213(07May2024:21:50:20):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s214(07May2024:21:51:01):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s215(07May2024:21:51:35):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s216(07May2024:23:14:29):  irun -access +rwc decoder.v 
+s217(07May2024:23:14:40):  irun -access +rwc mem.v 
+s218(07May2024:23:14:59):  irun -access +rwc add.v 
+s219(07May2024:23:15:25):  irun -access +rwc sub.v 
+s220(07May2024:23:15:36):  irun -access +rwc mul.v 
+s221(07May2024:23:15:44):  irun -access +rwc div.v 
+s222(07May2024:23:15:55):  irun -access +rwc fsqrt.v 
+s223(07May2024:23:16:13):  irun -access +rwc max.v 
+s224(07May2024:23:16:21):  irun -access +rwc min.v 
+s225(07May2024:23:16:50):  irun -access +rwc eq.v 
+s226(07May2024:23:16:57):  irun -access +rwc leq.v 
+s227(07May2024:23:17:16):  irun -access +rwc lt.v 
+s228(07May2024:23:19:25):  irun -access +rwc F_alu.v 
+s229(07May2024:23:19:37):  irun -access +rwc floatingpoint.v 
+s230(07May2024:23:48:08):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s231(08May2024:09:28:39):  irun -access +rwc decoder.v decoder_tb.v 
+s232(08May2024:10:41:02):  irun -access +rwc decoder.v decoder_tb.v 
+s233(08May2024:10:51:54):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s234(08May2024:10:52:46):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s235(08May2024:10:53:51):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s236(08May2024:10:54:32):  irun -access +rwc fsqrt.v 
+s237(08May2024:10:54:38):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s238(08May2024:10:56:17):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s239(08May2024:10:56:58):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s240(08May2024:10:57:16):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s241(08May2024:10:57:31):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s242(08May2024:10:57:59):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s243(08May2024:10:58:30):  irun -access +rwc mem.v memory_tb.v 
+s244(08May2024:10:59:49):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s245(08May2024:11:00:24):  irun -access +rwc add.v 
+s246(08May2024:11:01:44):  irun -access +rwc add.v 
+s247(08May2024:11:02:37):  irun -access +rwc add.v 
+s248(08May2024:11:04:01):  irun -access +rwc add.v 
+s249(08May2024:11:05:43):  irun -access +rwc add.v 
+s250(08May2024:11:06:09):  irun -access +rwc add.v 
+s251(08May2024:11:07:27):  irun -access +rwc add.v 
+s252(08May2024:11:09:55):  irun -access +rwc add.v 
+s253(08May2024:11:12:20):  irun -access +rwc add.v 
+s254(08May2024:11:12:54):  irun -access +rwc add.v 
+s255(08May2024:11:14:02):  irun -access +rwc add.v 
+s256(08May2024:11:15:26):  irun -access +rwc add.v 
+s257(08May2024:11:17:02):  irun -access +rwc add.v 
+s258(08May2024:11:20:07):  irun -access +rwc add.v 
+s259(08May2024:11:22:25):  irun -access +rwc add.v 
+s260(08May2024:11:22:32):  irun -access +rwc sub.v 
+s261(08May2024:11:23:04):  irun -access +rwc sub.v 
+s262(08May2024:11:24:21):  irun -access +rwc sub.v 
+s263(08May2024:11:25:06):  irun -access +rwc mul.v 
+s264(08May2024:11:26:51):  irun -access +rwc div.v 
+s265(08May2024:11:27:07):  irun -access +rwc div.v 
+s266(08May2024:11:27:58):  irun -access +rwc div.v 
+s267(08May2024:11:29:46):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s268(08May2024:11:30:40):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s269(08May2024:11:31:48):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s270(08May2024:11:33:22):  irun -access +rwc max.v max_tb.v 
+s271(08May2024:11:34:29):  irun -access +rwc max.v max_tb.v 
+s272(08May2024:11:36:06):  irun -access +rwc min.v min_tb.v 
+s273(08May2024:11:36:23):  irun -access +rwc min.v min_tb.v 
+s274(08May2024:11:38:18):  irun -access +rwc eq.v eq_tb.v 
+s275(08May2024:11:39:59):  irun -access +rwc lt.v lt_tb.v 
+s276(08May2024:11:41:26):  irun -access +rwc leq.v leq_tb.v 
+s277(08May2024:11:43:38):  irun -access +rwc F_alu.v Falu_tb.v 
+s278(08May2024:11:45:12):  irun -access +rwc F_alu.v Falu_tb.v 
+s279(08May2024:11:46:32):  irun -access +rwc F_alu.v Falu_tb.v 
+s280(08May2024:11:48:05):  irun -access +rwc F_alu.v Falu_tb.v 
+s281(08May2024:11:48:44):  irun -access +rwc F_alu.v Falu_tb.v 
+s282(08May2024:11:49:55):  irun -access +rwc F_alu.v Falu_tb.v 
+s283(08May2024:11:50:31):  irun -access +rwc F_alu.v Falu_tb.v 
+s284(08May2024:11:51:55):  irun -access +rwc F_alu.v Falu_tb.v 
+s285(08May2024:11:52:29):  irun -access +rwc F_alu.v Falu_tb.v 
+s286(08May2024:11:53:02):  irun -access +rwc F_alu.v Falu_tb.v 
+s287(08May2024:11:53:32):  irun -access +rwc F_alu.v Falu_tb.v 
+s288(08May2024:11:55:43):  irun -access +rwc F_alu.v Falu_tb.v 
+s289(08May2024:11:57:16):  irun -access +rwc F_alu.v Falu_tb.v 
+s290(08May2024:11:59:52):  irun -access +rwc F_alu.v Falu_tb.v 
+s291(08May2024:12:00:28):  irun -access +rwc F_alu.v Falu_tb.v 
+s292(08May2024:12:01:08):  irun -access +rwc F_alu.v Falu_tb.v 
+s293(08May2024:12:01:58):  irun -access +rwc floatingpoint.v fp_tb.v 
+s294(08May2024:12:02:43):  irun -access +rwc floatingpoint.v fp_tb.v 
+s295(08May2024:12:03:43):  irun -access +rwc F_alu.v Falu_tb.v 
+s296(08May2024:12:39:36):  irun -access +rwc eq.v eq_tb.v 
+s297(08May2024:12:39:53):  irun -access +rwc eq.v 
+s298(08May2024:12:40:02):  irun -access +rwc eq_tb.v 
+s299(08May2024:12:40:56):  irun -access +rwc lt.v lt_tb.v 
+s300(08May2024:12:41:52):  irun -access +rwc leq.v leq_tb.v 
+s301(08May2024:12:42:28):  irun -access +rwc F_alu.v Falu_tb.v 
+s302(08May2024:12:43:52):  irun -access +rwc F_alu.v Falu_tb.v 
+s303(08May2024:12:46:05):  irun -access +rwc F_alu.v Falu_tb.v 
+s304(08May2024:12:48:24):  irun -access +rwc F_alu.v 
+s305(08May2024:12:49:38):  irun -access +rwc add.v 
+s306(08May2024:12:49:47):  irun -access +rwc F_alu.v 
+s307(08May2024:12:51:07):  irun -access +rwc sub.v 
+s308(08May2024:12:52:29):  irun -access +rwc mul.v 
+s309(08May2024:12:52:36):  irun -access +rwc F_alu.v 
+s310(08May2024:12:53:44):  irun -access +rwc max.v max_tb.v 
+s311(08May2024:12:54:35):  irun -access +rwc min.v min_tb.v 
+s312(08May2024:12:55:05):  irun -access +rwc F_alu.v 
+s313(08May2024:12:55:23):  irun -access +rwc eq.v 
+s314(08May2024:12:55:26):  irun -access +rwc F_alu.v 
+s315(08May2024:12:56:39):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s316(08May2024:12:56:46):  irun -access +rwc F_alu.v 
+s317(08May2024:12:57:58):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s318(08May2024:12:58:11):  irun -access +rwc F_alu.v 
+s319(08May2024:13:01:34):  irun -access +rwc div.v 
+s320(08May2024:13:01:39):  irun -access +rwc F_alu.v 
+s321(08May2024:13:03:51):  irun -access +rwc F_alu.v Falu_tb.v 
+s322(08May2024:13:07:24):  irun -access +rwc F_alu.v Falu_tb.v 
+s323(08May2024:13:07:37):  irun -access +rwc floatingpoint.v fp_tb.v 
+s324(08May2024:13:14:11):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s325(08May2024:13:14:36):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s326(08May2024:13:55:14):  irun -access +rwc decoder.v decoder_tb.v 
+s327(08May2024:13:55:24):  irun -access +rwc mem.v memory_tb.v 
+s328(08May2024:13:55:29):  irun -access +rwc add.v 
+s329(08May2024:13:55:36):  irun -access +rwc sub.v 
+s330(08May2024:13:55:50):  irun -access +rwc mul.v 
+s331(08May2024:13:55:55):  irun -access +rwc div.v 
+s332(08May2024:13:56:23):  irun -access +rwc F_alu.v 
+s333(08May2024:13:57:18):  irun -access +rwc F_alu.v 
+s334(08May2024:13:59:28):  irun -access +rwc decoder.v decoder_tb.v 
+s335(08May2024:13:59:48):  irun -access +rwc mem.v memory_tb.v 
+s336(08May2024:14:00:18):  irun -access +rwc add.v 
+s337(08May2024:14:01:03):  irun -access +rwc sub.v 
+s338(08May2024:14:02:44):  irun -access +rwc div.v 
+s339(08May2024:14:03:38):  irun -access +rwc div.v 
+s340(08May2024:14:04:28):  irun -access +rwc div.v 
+s341(08May2024:14:05:04):  irun -access +rwc mul.v 
+s342(08May2024:14:05:26):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s343(08May2024:14:05:35):  irun -access +rwc max.v max_tb.v 
+s344(08May2024:14:05:54):  irun -access +rwc min.v 
+s345(08May2024:14:05:58):  irun -access +rwc eq.v 
+s346(08May2024:14:06:02):  irun -access +rwc lt.v 
+s347(08May2024:14:06:06):  irun -access +rwc leq.v 
+s348(08May2024:14:06:16):  irun -access +rwc F_alu.v 
+s349(08May2024:14:06:23):  irun -access +rwc F_alu.v Falu_tb.v 
+s350(08May2024:14:07:05):  irun -access +rwc floatingpoint.v fp_tb.v 
+s351(08May2024:21:59:20):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s352(08May2024:22:08:16):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s353(13May2024:21:25:23):  irun -access +rwc eq.v eq_tb.v 
+s354(13May2024:21:25:59):  irun -access +rwc eq.v eq_tb.v 
+s355(13May2024:21:26:11):  irun -access +rwc add.v 
+s356(13May2024:21:26:20):  irun -access +rwc sub.v 
+s357(13May2024:21:26:27):  irun -access +rwc mul.v 
+s358(13May2024:21:26:31):  irun -access +rwc div.v 
+s359(13May2024:21:26:41):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s360(13May2024:21:29:22):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s361(13May2024:21:29:50):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s362(13May2024:21:30:00):  irun -access +rwc fsqrt.v fsqrt_tb.v 
+s363(13May2024:21:30:17):  irun -access +rwc max.v max_tb.v 
+s364(13May2024:21:30:28):  irun -access +rwc min.v min_tb.v 
+s365(13May2024:21:30:36):  irun -access +rwc lt.v lt_tb.v 
+s366(13May2024:21:30:48):  irun -access +rwc leq.v leq_tb.v 
+s367(13May2024:21:31:01):  irun -access +rwc decoder.v decoder_tb.v 
+s368(13May2024:21:31:13):  irun -access +rwc mem.v memory_tb.v 
+s369(13May2024:21:31:28):  irun -access +rwc F_alu.v Falu_tb.v 
+s370(13May2024:21:31:35):  irun -access +rwc floatingpoint.v fp_tb.v 
+s371(13May2024:21:40:04):  irun -access +rwc floatingpoint.v fp_tb.v 
+s372(13May2024:21:40:09):  irun -access +rwc F_alu.v Falu_tb.v 
+s373(13May2024:21:40:11):  irun -access +rwc floatingpoint.v fp_tb.v 
+s374(14May2024:14:04:31):  irun -access +rwc floatingpoint.v fp_tb.v 
+s375(14May2024:14:04:37):  irun -access +rwc F_alu.v Falu_tb.v 
+s376(14May2024:14:04:39):  irun -access +rwc floatingpoint.v fp_tb.v 
+s377(14May2024:15:59:11):  irun -access +rwc decoder.v decoder_tb.v 
+s378(14May2024:16:06:18):  irun -access +rwc floatingpoint.v fp_tb.v 
+s379(14May2024:16:16:03):  irun -access +rwc floatingpoint.v fp_tb.v 
+s380(14May2024:16:16:06):  irun -access +rwc decoder.v decoder_tb.v 
+s381(14May2024:16:16:08):  irun -access +rwc floatingpoint.v fp_tb.v 
